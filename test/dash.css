@@ -757,3 +757,9 @@ text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 17px;
 }
+
+
+footer{
+    background-color: black;
+    color: white;
+}
