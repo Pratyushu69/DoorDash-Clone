@@ -90,7 +90,7 @@ div.banner-open-button{
     color: white;
     position: absolute;
     left: 60px;
-    bottom: 420px;
+    bottom: 360px;
     /* display: flex;
     flex-direction: column;
     width: 200px; */
@@ -623,5 +623,60 @@ text-decoration: none;
 }
 
 .white-back5 .article-main{
+    margin-top: 40px;
+}
+
+
+
+
+
+.white-back6{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 253, 253) ;
+    height: 460px;
+    margin-right: -75px;
+    width: 100%;
+     background: rgb(238, 212, 216);
+    height: 570px;
+    
+}
+
+.white-back6 .content{
+    margin-top: 20px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+    gap: 6px;
+    
+}
+
+.white-back6 .content a{
+     margin-top: 20px;
+    padding: 6px;
+    border-radius: 20px;
+    width: 135px;
+    background-color: rgb(225, 40, 40);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.white-back6 .content h1, .white-back6 .content h2{
+    line-height: 35px;
+    white-space: nowrap;
+}
+.white-back6 .article5{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.white-back6 .article-main{
     margin-top: 40px;
 }
