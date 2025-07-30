@@ -760,6 +760,167 @@ text-decoration: none;
 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: rgb(44, 40, 40);
+    color: rgb(184, 184, 184);
+    text-align: center;
 }
+
+footer .section1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .section1 .sec1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section1 .sec1 .list{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+footer .section1 .sec2{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+footer .section1 .sec3{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+footer .section1 .sec4{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+footer .section2{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+footer .section2 .sec1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section2 .sec1 .list{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section2 .sec2{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section2 .sec2 .list{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section2 .sec3{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section2 .sec4{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section2 .sec3 .list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section3{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+    text-align: center;
+
+}
+
+.section2 .wrap{
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+.section3 .sec1{
+    display: flex;
+    font-size:12px;
+    margin-bottom: 30px;
+   
+    top: 10px;
+   
+  
+
+}
+
+.section3 .sec1 .list .sub-list1{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.section3 .sec1 .list .sub-list2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+.section3 .sec2{
+    display: flex;
+    align-self: center;
+   
+  
+
+}
+
+.section3 .sec3{
+    display: flex;
+    align-self: center;
+    margin-top: 30px;
+    gap: 15px;
+    
+
+}
+
+
+
+
+button.lang-but{
+    display: flex;
+    background-color: white;
+    width: 143px;
+    height: 38px;
+    border-radius: 20px;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
