@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: ttnorm;
+    src: url(https://img.cdn4dd.com/t/TTNorms-Regular.woff2);
+}
 
 *{
     margin: 0;
@@ -32,6 +35,15 @@ header{
     margin-top: 25px;
     height: 71px;
     width: 100%;
+    justify-content: space-around;
+    
+}
+
+div.banner-but{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 15px;
     
 }
 
@@ -55,26 +67,23 @@ header{
 }
 
 .open-button {
-    margin-left: 45px;
-    margin-bottom: 29px;
-    margin-top: 10px;
-    padding: 6px;
+    width: 57px;
     border-radius: 20px;
-    width: 100%;
     background-color: rgb(224, 31, 31);
     text-align: center;
+    height: 36%;
 }
 
 div.banner-open-button{
-    margin-top: 22px;
-    margin-left: 285px;
-    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
     border-radius: 20px;
-    width: 103px;
-    height: 40px;
+    width: 95px;
+    height: 42px;
     background-color: rgb(224, 31, 31);
     text-align: center;
-    margin-right: 25px;
+    padding: 10px;
+    
 }
 .banner-open-button a{
     text-decoration: none;
@@ -91,13 +100,27 @@ div.banner-open-button{
 .middle-content{
     color: white;
     position: absolute;
-    left: 13%;
-    top: 25%;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    width: 200px; */
-    /* border: 1px solid black; */
+    width: 350px; 
+
    
+}
+
+.mid-con{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 280px;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
 }
 
 .middle-content .logoandname{
@@ -108,9 +131,16 @@ div.banner-open-button{
     
 }
 
+.logoandname span{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 .middle-content .first-title{
     font-size: 15px;
     font-weight:bolder;
+    margin-bottom: 10px;
     
 }
 
@@ -147,6 +177,7 @@ padding: 3px;
 
 .middle-content .enter-address{
     position: relative;
+    left: 25px;
 }
 
 .middle-content .enter-address input{
@@ -169,11 +200,13 @@ padding: 3px;
  
 .middle-content .enter-address .right-arrow{
     position: absolute;
-    left: 135px;
-    top: 2px;
+    left: 260px;
+    top: 5px;
     background-color: rgb(243, 35, 35);
     border-radius: 50%;
-    height: 40px;
+    height: 35px;
+    border: none;
+    width: 30px;
 }
 
 .middle-content .twobuttons .login .acc{
@@ -450,7 +483,7 @@ text-decoration: none;
 
 .image-gallery{
     background-color: rgb(238, 212, 216);
-    height: 570px;
+    height: 650px;
 } 
 
 .image-gallery .image-grid{
@@ -766,15 +799,18 @@ text-decoration: none;
 
 
 footer{
-    background-color: rgb(44, 40, 40);
+    background-color: rgb(19, 18, 18);
     color: rgb(184, 184, 184);
     text-align: center;
+    
 }
+
 
 footer .section1{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 100px;
+    justify-content: center;
 }
 
 footer .section1 .sec1{
@@ -810,7 +846,10 @@ footer .section2{
     display: flex;
     flex-direction: column-reverse;
     gap: 10px;
+
 }
+
+
 
 footer .section2 .sec1{
     display: flex;
@@ -937,6 +976,10 @@ div.banner-open-button1{
     height: 180px;
 }
 
+.galcon{
+    line-height: 24px;
+}
+
 
 
 @media screen and (min-width:760px){
@@ -948,26 +991,27 @@ div.banner-open-button1{
         display: none;
     }
 
-    .middle-content .logoandname{
-        position: relative;
-        bottom:286px;
-        left:60px;
-    }
+    /* .middle-content .logoandname{
+       
+    } */
 
-    br{
-        display: none;
-    }
 
-    .middle-content .first-title{
-        position: relative;
-        bottom: 100px;
-        left: 100px;
+    /* .middle-content .first-title{
+       
     }
 
     .middle-content .enter-address{
-        position:relative;
-        left: 185px;
-        top: -80px;
+       
+
+    } */
+
+    .mid-con{
+        justify-content: center;
+         margin-left: 170px;
+    }
+
+    .middle-conent .first-title h1 br{
+        display: none;
 
     }
 
@@ -978,16 +1022,14 @@ div.banner-open-button1{
 
     div.banner-open-button1{
         display: block;
-    padding: 10px;
+    padding: 4px;
     border-radius: 20px;
-    width: 100%;
-    height: 39px;
+    width: 72px; 
+    height: 30px;
     background-color: rgb(224, 31, 31);
     text-align: center;
-    margin-right: 595px;
-            position: relative;
-        left:575px;
-        top: 10px;
+
+   
 }
 .banner-open-button1 a{
     text-decoration: none;
@@ -997,17 +1039,13 @@ div.banner-open-button1{
 
 div.banner-open-button2{
    display: block;
-   
-    padding: 10px;
     border-radius: 20px;
-    width: 100%;
-    height: 39px;
+    width: 72px;
+    height: 30px;
     background-color: rgb(253, 253, 253);
     text-align: center;
-    margin-right: 9px;
-    position: relative;
-    top: 10px;
-    right: 10px;
+    padding: 4px;
+   
 }
 .banner-open-button2 a{
     text-decoration: none;
@@ -1016,6 +1054,10 @@ div.banner-open-button2{
 
 .banner .double-button{
     display:flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .white-back{
@@ -1105,11 +1147,14 @@ footer .section1{
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
+    text-align: justify;
 }
 
 footer .section2 .wrap{
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: justify;
+    gap: 100px;
 }
 
 .section3{
@@ -1122,6 +1167,7 @@ footer .section2 .wrap{
     margin-top:20px;
     margin-bottom: 10px;
 }
+
 
 footer .title{
     position: relative;
@@ -1151,14 +1197,135 @@ footer .title{
 
 }
 
+.log{
+    top: -28px;
+}
+
+.mid-con{
+    top: -130px;
+}
+
+.image-gallery {
+height: 1150px;
+}
+
+
 
 
 
 }
 
 
-@media screen and (min-width:1020px)
+@media screen and (min-width:1024px){
+    .white-back1{
+        flex-direction: row;
+    }
 
+    .middle-content{
+        left: 18%;
+        top: 18%;
+    }
+    .mid-con{
+         margin-left: 170px;
+         margin-top: 300px;
+    }
+
+    .image-gallery{
+        height: 1150px;
+    }
+
+    .image-gallery .image-grid .img1 img{
+        margin-left: 100px;
+    }
+
+    .image-gallery .image-grid .img3 img{
+        margin-left: 100px;
+    }
+
+    .image-gallery .image-grid .img1{
+        align-items: baseline;
+    }
+
+    .image-gallery .image-grid .img3{
+        align-items: baseline;
+    }
+    
+      
+    
+}
+
+
+@media screen and (min-width:1440px){
+   
+
+    .middle-content{
+        top: 43%;
+        left: 30%;
+    }
+
+
+    .cimage{
+    height: 500px;
+    width: 600px;
+    margin-right: 50px;
+}
+
+    .cimage1{
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.image-gallery{
+    margin-top: 50px;
+    height: 1330px;
+    
+}
+
+.image-gallery .image-grid{
+    margin-left: 150px;
+}
+
+
+
+/* .image-gallery .image-grid{
+    margin-left: 350px;
+    margin-right: 350px;
+} */
+
+.image-gallery .image-grid .img1 img{
+    width: 450px;
+    margin-left: 60px;
+    
+}
+
+.image-gallery .image-grid .img2 img{
+    width: 450px;
+}
+
+.image-gallery .image-grid .img3 img{
+    width: 500px;
+    margin-left: 60px;
+}
+.image-gallery .image-grid .img4 img{
+    width: 450px;
+}
+
+.img1-a{
+    align-self: end;
+}
+
+.img3-a{
+    align-self: end;
+}
+
+/* .mid-con{
+
+} */
+
+
+
+}
 
 
 
